@@ -1,0 +1,177 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0 auto;
+  font-family: 'Dosis', sans-serif;
+}
+.masthead{
+  text-align: center;
+  background-image: url("../images/waves.png");
+  overflow: hidden;
+}
+h1{
+  background-image: url("../images/beetle-icon.svg"), url("../images/beetle-icon.svg");
+  background-size: 65px auto, 65px auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+}
+
+.rocks{
+  width: 100%;
+  padding-top: 0;
+  position: relative;
+}
+p{
+  color: white;
+  position: absolute;
+  top: 38%;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+  padding: 2em 3em;
+  margin: 0;
+  width: 100%;
+}
+nav{
+  width: 100%;
+}
+nav ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  clear: left;
+  padding: 0;
+  background-color: #78543a;
+}
+
+nav li {
+  width: 25%;
+  display: block;
+  padding: 0;
+  text-align: center;
+  background-color: #78543a;
+  opacity: 0.5;
+  float: left;
+}
+nav a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 0;
+  text-align: center;
+  background-color: #78543a;
+}
+a:hover{
+  background-color: #78543a;
+  color: white;
+  opacity: 100;
+}
+footer {
+background-color: rgba(81, 34, 0, 0.5);
+padding: 2em 0;
+background-image: url("../images/beetle-icon.svg");
+background-repeat: no-repeat;
+position:relative;
+background-size: 50px;
+background-position: center;
+}
+.icon{
+    width: 10%;
+    float: none;
+    position: relative;
+    text-align: center;
+    left: 45%;
+}
+.a-ant-nest{
+  display: inline-block;
+  padding: 0.15em 2em;
+  text-decoration: none;
+  color: white;
+  background-color: #a8ae98;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, #39833e, #6fbf44);
+  position: absolute;
+  left: 6%;
+  bottom: 23%;
+  box-shadow: 0 2px 5px rgba(0,0,0,1);
+}
+.a-stag{
+  display: inline-block;
+  padding: 0.15em 2em;
+  text-decoration: none;
+  color: white;
+  background-color: #a8ae98;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, #39833e, #6fbf44);
+  position: absolute;
+  bottom: 23%;
+  right: 8%;
+  box-shadow: 0 2px 5px rgba(0,0,0,1);
+}
+.a-dung{
+  display: inline-block;
+  padding: 0.15em 2em;
+  text-decoration: none;
+  color: white;
+  background-color: #a8ae98;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, #39833e, #6fbf44);
+  position: absolute;
+  top: 98%;
+  right: 60%;
+  box-shadow: 0 2px 5px rgba(0,0,0,1);
+}
+.a-tortoise{
+  display: inline-block;
+  padding: 0.15em 2em;
+  text-decoration: none;
+  color: white;
+  background-color: #a8ae98;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, #39833e, #6fbf44);
+  position: absolute;
+  right: 5%;
+  top: 98%;
+  box-shadow: 0 2px 5px rgba(0,0,0,1);
+}
+div{
+  width: 50%;
+  margin: 0;
+}
+.ant-nest{
+  width: 100%;
+  float: left;
+}
+.stag{
+  width: 100%;
+  clear: right;
+}
+.dung{
+  width: 100%;
+  float: right;
+}
+.tortoise{
+  width: 100%;
+  float: left;
+}
+.ant-nest-div{
+  float: left;
+}
+.stag-div{
+  float: right;
+}
+.dung-div{
+  float: left;
+}
+.tortoise-div{
+  float: right;
+}
+
+main{
+  overflow: hidden;
+}
